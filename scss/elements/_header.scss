@@ -1,0 +1,56 @@
+.header {
+  height: 100px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    background-color: $color-light-grey;
+  }
+
+  .logo {
+    font-family: $font-knewave;
+    font-size: 3rem;
+    font-weight: 400;
+    color: $color-primary;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+
+  .nav {
+    &__inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 100%;
+    }
+
+    &__element {
+      padding: 0 26px;
+
+      &:last-child {
+        padding-right: 30px;
+      }
+    }
+
+    &__link {
+      color: $color-orange;
+      font-family: $font-kanit;
+      font-weight: 700;
+      font-size: 1rem;
+      text-transform: uppercase;
+      padding: 28px 18px 22px;
+      border-bottom: 4px solid transparent;
+      letter-spacing: 0.2rem;
+
+      text-decoration: none;
+
+      /*&:hover {
+        color: $color-black;
+        border-color: $color-primary;
+      }*/
+    }
+  }
+}
