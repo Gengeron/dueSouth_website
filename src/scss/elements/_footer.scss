@@ -1,0 +1,28 @@
+.footer {
+  padding: 20px 0;
+
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  &__copy {
+    font-size: 1rem;
+    line-height: 1rem;
+    color: $color-grey;
+    margin-top: 6px;
+  }
+
+  &__icons a:first-of-type {
+    margin-right: 25px;
+  }
+}

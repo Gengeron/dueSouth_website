@@ -1,0 +1,51 @@
+/*@import wszystkich plików w scss*/
+
+@import "scss/generic/reset";
+
+@import "scss/settings/variables";
+@import "scss/settings/mixins";
+
+@import "scss/elements/navigations";
+@import "scss/elements/opening";
+@import "scss/elements/footer";
+
+@import "scss/elements/slideshow";
+
+
+* {
+  box-sizing: border-box;
+  font-family: $font-kanit, sans-serif;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 2.25rem;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.container {
+  width: 95vw;
+  margin: 0 auto;
+}
+
+.logo {
+  font-size: 3rem;
+  font-weight: 400;
+  color: $color-orange;
+  margin-left: 30px;
+}
