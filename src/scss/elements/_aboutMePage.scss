@@ -1,0 +1,20 @@
+.containerAbout {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 15px;
+  margin-top: 20px;
+}
+
+.profilePhoto {
+  max-width: 100%;
+  max-height: 100%;
+  float: left;
+}
+
+.profileText {
+  font-size: 20px;
+  padding-left: 20px;
+  padding-top: 20%;
+  float: left;
+}

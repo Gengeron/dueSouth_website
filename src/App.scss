@@ -9,7 +9,12 @@
 @import "scss/elements/opening";
 @import "scss/elements/footer";
 
-@import "scss/elements/slideshow";
+/*@import "scss/elements/slideshow";*/
+@import "scss/elements/aboutMePage";
+@import "scss/elements/contactForm";
+@import "scss/elements/tripPage";
+
+@import "react-slideshow-image/dist/styles.css"; //stylowanie do react_slideshow
 
 
 * {

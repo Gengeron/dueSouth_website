@@ -1,9 +1,11 @@
+import ReactSlideshow from "../components/ReactSlideshow.jsx";
+
 function GalleryPage() {
     return (
         <>
-            <h1>
-                fotografie
-            </h1>
+            <div>
+                <ReactSlideshow />
+            </div>
         </>
     )
 }
