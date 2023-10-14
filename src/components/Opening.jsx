@@ -1,5 +1,5 @@
 
-import background from '../assets/nissan_georgia.jpg'
+import background from '../assets/gravelride500.jpg'
 
 /*import img1 from '../assets/nissan_xterra.jpg'
 import img2 from '../assets/mitsu_delica.jpg'

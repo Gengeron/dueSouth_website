@@ -1,3 +1,6 @@
+import React from 'react';
+/*import InitMap from '../components/TripGPX'*/
+
 function Trips() {
     return (
         <>
@@ -20,6 +23,38 @@ function Trips() {
                 Cum sociis natoque penatibus et magnis dis. In nibh mauris cursus mattis molestie a iaculis at. Lacus viverra vitae congue eu consequat ac felis.
             </p>
 
+            {/*<div id="map" style={{ height: '500px', border: "solid" }}>
+                <InitMap/>
+            </div>*/}
+
+            <div style={{ margin: '0 auto' }}>
+                <iframe
+                    loading="lazy"
+                    width="100%"
+                    height="680"
+                    src="https://velomapa.pl/widzety/d4c41c0c-03bb-4d7e-82bc-e3bf35538af2"
+                    frameBorder="0"
+                    style={{ margin: '0 auto', border: '1px solid #ddd' }}
+                />
+                <a
+                    target="_blank"
+                    href="https://velomapa.pl/szlaki/velo-baltica-eurovelo-10-13-r10?utm_source=widget&amp;utm_medium=widget&amp;utm_campaign=route_widget"
+                    rel="dofollow"
+                    style={{
+                        fontFamily: 'Roboto, Helvetica, sans-serif',
+                        margin: '0',
+                        fontSize: '12px',
+                        textAlign: 'end',
+                        paddingTop: '4px',
+                        color: 'rgb(55, 65, 81)',
+                        display: 'block',
+                        fontWeight: 'normal',
+                        textDecoration: 'none'
+                    }}
+                >
+                    Pobierz gpx i zobacz więcej na velomapa.pl
+                </a>
+            </div>
         </>
     )
 }
